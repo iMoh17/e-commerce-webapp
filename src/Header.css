@@ -1,0 +1,138 @@
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 20;
+  
+}
+
+.upper-navbar-row {
+  display: flex;
+  background-color: #ffff;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin: 10px;
+  color: #F86338;
+  font-size: 40px;
+}
+
+.upper-navbar-row-items{
+  display: flex;
+  padding: 20px;
+}
+
+.upper-navbar-row-item{
+  font-size: 14px;
+  font-weight: 400;
+  color: #11142D;
+}
+
+.lower-navbar-row{
+  display: flex;
+  background-color:#F4F7F8;;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 18px;
+  position: relative;
+}
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.dropdown-menu div {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  height: 100px;
+  cursor: pointer;
+}
+.dropdown-menu p{
+  position: relative;
+  width: 80%;
+  /* left: 2.5%; */
+  margin-left: 10px;
+  font-size: 20px;
+  
+}
+.dropdown-menu img{
+  max-width: 70px;
+  max-height: 90px;
+  object-fit:scale-down;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f2f2f2;
+}
+
+.search-bar input{
+  padding: 18px;
+  border:0px;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  margin-right: 8px;
+}
+
+.lower-navbar-texts{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.lower-navbar-text{
+  width: 39px;
+  height: 19px;
+  color: #11142D;
+  font-weight: 600;
+}
+
+.lower-navbar-icons{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-navbar-icon{
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,30 @@
+
+.main-info-block{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    align-items: flex-end;
+    position: relative;
+}
+.info-header{
+    position: absolute;
+    top: 20%;
+    color:#11142D;
+    font-weight: 500;
+    width: 40%;
+    font-size: 70px;
+    padding-right: 140px;
+    padding-bottom: 20px;    
+}
+
+.info-par{
+    position: relative;
+    top: 60%;
+    color:#515151;
+    font-weight: 500;
+    width: 40%;
+    font-size: small;
+    padding-right: 140px;
+}

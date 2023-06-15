@@ -1,0 +1,124 @@
+.ShoppingDiv-container{
+    display: flex;
+    flex-direction: row;
+    background-color:#E5E5E5;;
+    padding: 100px;
+}
+.filters {
+    padding-top: 20px;
+    background-color: #E5E5E5;;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.sort-option {
+    margin-bottom: 20px;
+    
+  }
+  
+  .sort-option select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none;
+    background-color: #fff;
+    color: #333;
+    padding: 8px;
+}
+
+.sort-option select option {
+  background-color: #fff;
+  color: #333;
+}
+
+.filter-category {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-category h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .category{
+    background-color:#E5E5E5;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 0 solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-category button:hover {
+    background-color: #f8f8f8;
+  }
+  .filter-category-clear-button {
+    background-color:#F86338;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 0 solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .filter-category-clear-button:hover{
+    background-color: #fff;
+    color: #F86338;
+  }
+  
+  .filter-category p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+.filter-price {
+    margin-bottom: 20px;
+
+  }
+  
+  .filter-price h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-price input {
+    width: 120px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filter-price button {
+    background-color:#F86338;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 0 solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .filter-price button:hover {
+    background-color: #fff;
+    color: #F86338;
+  }
+  
+  .filter-price p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
